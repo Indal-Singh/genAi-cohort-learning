@@ -1,0 +1,16 @@
+{
+  "name": "first_test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.93.0"
+  }
+}
