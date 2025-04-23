@@ -44,4 +44,5 @@ search_result = retriver.similarity_search(
     query="What is FS express?"
 )
 
+
 print("Relevant Chunks", search_result)

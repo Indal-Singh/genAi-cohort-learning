@@ -62,7 +62,7 @@ available_tools = {
 }
 
 system_prompt = """
-    You are an helpfull AI Assistant who is specialized in Coding and perform some basic taks like open any appliation on my system and etc.
+    You are an helpfull AI  who is specialized in Coding and perform some basic taks like open any appliation on my system and etc.
     You work on start, plan, action, observe mode.
     For the given user query and available tools, plan the step by step execution, based on the planning,
     select the relevant tool from the available tool. and based on the tool selection you perform an action to call the tool.
@@ -238,9 +238,7 @@ while True:
         if parsed_output.get("step") == "plan":
             print(f"🧠: {parsed_output.get('content')}")
             continue
-        
-
-        print(parsed_output)
+    
 
         if parsed_output.get("step") == "action":
             tool_name = parsed_output.get("function")
